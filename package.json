@@ -1,0 +1,11 @@
+{
+  "name": "json-schema-types",
+  "author": "Nobuhiro Nakamura <lefb766@live.jp>",
+  "license": "MIT",
+  "description": "An attempt to describe schema of the JSON Schema in TypeScript types",
+  "version": "4.0.1",
+  "typings": "./json-schema.d.ts",
+  "devDependencies": {
+    "typescript": "~2.0.0"
+  }
+}
