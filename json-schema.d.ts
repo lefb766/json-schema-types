@@ -1,4 +1,10 @@
-declare module 'json-schema-types' {
+/*
+ * Using a top-level export instead of a module declaration
+ * as it offered as a single type-only node package.
+ * Uncomment when this happens to be contributed to DefinitelyTyped.
+ * Keep in mind the corresponding test file also has to be updated at such time.
+ */
+//declare module 'json-schema-types' {
     interface Core {
         id?: string;
         $schema?: string;
@@ -62,4 +68,4 @@ declare module 'json-schema-types' {
     }
 
     export default JsonSchema;
-}
+//}

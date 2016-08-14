@@ -1,4 +1,4 @@
-import JsonSchema from 'json-schema-types';
+import JsonSchema from './json-schema';
 
 let metaSchema: JsonSchema = {
     "id": "http://json-schema.org/draft-04/schema#",
